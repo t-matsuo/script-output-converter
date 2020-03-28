@@ -1,7 +1,10 @@
 # script-output-converter
 convert script command output (typescript) to plain text
 
-## Install Library
+## Usage
+
+
+#### Install Library
 
 CentOS
 
@@ -15,8 +18,17 @@ Ubuntu
 # apt-get install libvterm0
 ```
 
-## Usage
+#### run
 
 ```
 # ./script-output-converter typescript
 ```
+
+## Building
+
+You need Docker environment.
+
+```
+# ./build.sh
+```
+
